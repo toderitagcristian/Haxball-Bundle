@@ -6,7 +6,7 @@ This is a boilerplate for Haxball game to build a full stack web application usi
 It is based on Haxball API and enhances gameplay, statistics and adds an authentication system (not provided by haxball API).
 More API info : https://github.com/haxball/haxball-issues/wiki/Headless-Host
 
-0Auth implemented with Discord API.
+**0Auth** implemented with Discord API.
 
 I am using [pm2](https://www.npmjs.com/package/pm2) to run discord bot, express backend and also run puppeteer to open a haxball room.
 Check out the **ecosystem.config.js** file
