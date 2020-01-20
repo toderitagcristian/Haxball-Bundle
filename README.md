@@ -6,6 +6,8 @@ This is a boilerplate for Haxball game to build a full stack web application usi
 It is based on Haxball API and enhances gameplay, statistics and adds an authentication system (not provided by haxball API).
 More API info : https://github.com/haxball/haxball-issues/wiki/Headless-Host
 
+0Auth implemented with Discord API.
+
 I am using [pm2](https://www.npmjs.com/package/pm2) to run discord bot, express backend and also run puppeteer to open a haxball room.
 Check out the **ecosystem.config.js** file
 
@@ -16,7 +18,7 @@ Other modules run as before with [pm2](https://www.npmjs.com/package/pm2).
 All the client side code will be bundled into static files using webpack and it will be served by the Node.js/Express application.
 Make sure to use **npm run build** to bundle client files.
 ### Dependencies
-I think 2-3 of them are not required.
+I think 2-3 of them are not required, but rather optional.
 ### Installation
 > #Clone the repository
 >git clone https://github.com/ToderitaGeorgeCristian/Haxball-Bundle.git
